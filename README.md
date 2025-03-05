@@ -1,2 +1,2 @@
 # python-essential-functions
-Guide to essential python functions
+Guide to essential Python functions
