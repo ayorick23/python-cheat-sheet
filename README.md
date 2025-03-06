@@ -6,7 +6,7 @@ A collection of fundamental Python functions, covering essential concepts, data 
 
 ## 📂 Project Structure
 📦 python-essential-functions<br>
-│── 📁 basics               # Basic Python functions<br>
+│── 📁 basics               &nbsp;&nbsp;&nbsp;&nbsp;# Basic Python functions<br>
 │── 📁 data_structures      # Lists, tuples, dictionaries, sets and more<br>
 │── 📁 file_handling        # Handling files (reading, writing and more)<br>
 │── 📁 error_handling       # Exception handling and debugging<br>
