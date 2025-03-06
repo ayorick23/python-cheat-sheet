@@ -6,15 +6,15 @@ A collection of fundamental Python functions, covering essential concepts, data 
 
 ## 📂 Project Structure
 📦 python-essential-functions<br>
-│── 📁 basics               &nbsp;&nbsp;&nbsp;&nbsp;# Basic Python functions<br>
-│── 📁 data_structures      # Lists, tuples, dictionaries, sets and more<br>
-│── 📁 file_handling        # Handling files (reading, writing and more)<br>
-│── 📁 error_handling       # Exception handling and debugging<br>
-│── 📁 modules_and_packages # Using and creating modules/packages<br>
-│── 📁 algorithms           # Sorting, searching, recursion, etc.<br>
-│── 📁 database             # Connecting to databases (MySQL, PostgreSQL, SQL Server)<br>
-│── 📁 control_flow         # Conditionals, loops, comprehensions, match-case<br>
-│── 📁 oops                 # Object-Oriented Programming (OOP)
+│── 📁 basics               ```# Basic Python functions```<br>
+│── 📁 data_structures      ```# Lists, tuples, dictionaries, sets and more```<br>
+│── 📁 file_handling        ```# Handling files (reading, writing and more)```<br>
+│── 📁 error_handling       ```# Exception handling and debugging```<br>
+│── 📁 modules_and_packages ```# Using and creating modules/packages```<br>
+│── 📁 algorithms           ```# Sorting, searching, recursion, etc.```<br>
+│── 📁 database             ```# Connecting to databases (MySQL, PostgreSQL, SQL Server)```<br>
+│── 📁 control_flow         ```# Conditionals, loops, comprehensions, match-case```<br>
+│── 📁 oops                 ```# Object-Oriented Programming (OOP)```
 
 ## 🚀 How to Use
 
@@ -36,15 +36,15 @@ Una colección de funciones esenciales de Python, cubriendo conceptos básicos, 
 
 ## 📂 Estructura del Proyecto
 📦 python-essential-functions<br>
-│── 📁 basics               # Funciones básicas de Python<br>
-│── 📁 data_structures      # Listas, tuplas, diccionarios, conjuntos y más<br>
-│── 📁 file_handling        # Manejo de archivos (lectura, escritura y más)<br>
-│── 📁 error_handling       # Manejo de excepciones y depuración<br>
-│── 📁 modules_and_packages # Uso y creación de modulos/paquetes<br>
-│── 📁 algorithms           # Ordenamiento, búsqueda, recursión, etc.<br>
-│── 📁 database             # Conexión a bases de datos (MySQL, PostgreSQL, SQL Server)<br>
-│── 📁 control_flow         # Condicionales, bucles, comprensiones, match-case<br>
-│── 📁 oops                 # Programación Orienta a Objetos (POO)
+│── 📁 basics               ```# Funciones básicas de Python```<br>
+│── 📁 data_structures      ```# Listas, tuplas, diccionarios, conjuntos y más```<br>
+│── 📁 file_handling        ```# Manejo de archivos (lectura, escritura y más)```<br>
+│── 📁 error_handling       ```# Manejo de excepciones y depuración```<br>
+│── 📁 modules_and_packages ```# Uso y creación de modulos/paquetes```<br>
+│── 📁 algorithms           ```# Ordenamiento, búsqueda, recursión, etc.```<br>
+│── 📁 database             ```# Conexión a bases de datos (MySQL, PostgreSQL, SQL Server)```<br>
+│── 📁 control_flow         ```# Condicionales, bucles, comprensiones, match-case```<br>
+│── 📁 oops                 ```# Programación Orienta a Objetos (POO)```
 
 ## 🚀 Cómo Usarlo
 
