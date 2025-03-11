@@ -8,6 +8,14 @@ while count < 5:
     print(f"Contador: {count}")
     count += 1
 
+#Bucle do while
+count = 0
+while True:
+    print(f"Contador: {count}")
+    count += 1
+    if count == 5:
+        break
+
 #Uso de break
 i = 0
 while i < 10:
