@@ -1,6 +1,6 @@
-# 📌 Python Essential Functions
+# <img width="30" height="30" src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="python"> Python Cheat Sheet
 
-# 🌍 English | [Español](#Español) 🇪🇸
+# 🌍 English | [Español](# 🇪🇸 Español)
 
 A collection of fundamental Python functions, covering essential concepts, data structures, file handling, error handling, algorithms, and more. This repository is designed for beginners and intermediate learners who want to deepen their understanding of Python.
 
