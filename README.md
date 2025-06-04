@@ -1,4 +1,4 @@
-# <img width="30" height="30" src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="python"> Python Cheat Sheet
+# <img width="30" height="30" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="python"> Python Cheat Sheet
 
 # 🌍 English | [Español](# 🇪🇸 Español)
 
