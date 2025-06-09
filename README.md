@@ -1,62 +1,109 @@
 # <img width="30" height="30" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="python"> Python Cheat Sheet
 
-# 🌍 English | [Español](# 🇪🇸 Español)
+¡Bienvenido a **Python Cheat Sheet!** Este repositorio está diseñado para ser tu guía rápida y práctica en el mundo de Python. Si eres un principiante que está dando sus primeros pasos o un desarrollador experimentado que necesita refrescar un concepto, ¡aquí encontrarás una referencia concisa y útil!
 
-A collection of fundamental Python functions, covering essential concepts, data structures, file handling, error handling, algorithms, and more. This repository is designed for beginners and intermediate learners who want to deepen their understanding of Python.
+Aquí hallarás una colección organizada de los comandos, estructuras de datos, funciones y conceptos clave de Python, cada uno con una explicación clara y ejemplos de código prácticos.
 
-## 📂 Project Structure
-📦 python-essential-functions<br>
-│── 📁 basics               ```# Basic Python functions```<br>
-│── 📁 data_structures      ```# Lists, tuples, dictionaries, sets and more```<br>
-│── 📁 file_handling        ```# Handling files (reading, writing and more)```<br>
-│── 📁 error_handling       ```# Exception handling and debugging```<br>
-│── 📁 modules_and_packages ```# Using and creating modules/packages```<br>
-│── 📁 algorithms           ```# Sorting, searching, recursion, etc.```<br>
-│── 📁 database             ```# Connecting to databases (MySQL, PostgreSQL, SQL Server)```<br>
-│── 📁 control_flow         ```# Conditionals, loops, comprehensions, match-case```<br>
-│── 📁 oops                 ```# Object-Oriented Programming (OOP)```
+## 🌎 Acerca de
 
-## 🚀 How to Use
+**Python** es uno de los lenguajes de programación más populares y versátiles del mundo, conocido por su sintaxis clara y legible. Es ampliamente utilizado en desarrollo web, análisis de datos, inteligencia artificial, automatización y mucho más.
 
-1️⃣ Clone the repository  
-```sh
-git clone https://github.com/ayorick23/python-essential-functions.git
-cd python-essential-functions
+Este **Python Cheat Sheet** tiene como objetivo simplificar el aprendizaje y la consulta rápida de los conceptos fundamentales de Python. Está diseñado para ser un recurso accesible que te permita codificar de manera más eficiente y con mayor confianza.
+
+## 🚀 ¿Qué encontrarás aquí?
+
+- `algorithms/` → Subdirectorios que contienen cada uno una familia de funciones y sintaxis de Python.
+  - Cada subdirectorio contiene archivos `.py` individuales (ej: `dinamic_programming.py`, `graph_algorithms.py`) con ejemplos de código Python listos para usar para cada función específica.
+
+## 📂 Estructura del Repositorio
+
+El repositorio está organizado de forma modular, agrupando las funciones DAX por categorías para una navegación intuitiva:
+
+```bash
+python-cheat-sheet/
+├── README.md
+├── algorithms/
+│   ├── dinamic_programming.py
+│   ├── graph_algorithms.py
+│   └── ...
+├── basic_functions/
+│   ├── conditionals.py
+│   ├── dictionaries.py
+│   └── ...
+├── control_flow/
+│   ├── comprehensions.py
+│   ├── conditionals.py
+│   └── ...
+├── data_structures/
+│   ├── dictionaries.py
+│   ├── linked_list.py
+│   └── ...
+├── database/
+│   ├── mysql_connection.py
+│   ├── orm_sqlalchemy.py
+│   └── ...
+└── ...
+
 ```
 
-## 📜 Prerequisites
-- Python 3.8+
-- Recommended: ```pip install requests beautifulsoup4 pandas selenium scrapy psycopg2 pyodbc```
+## 📝 ¿Cómo Usarlo?
 
-## 🤝 Contributing
-If you find an issue or want to add something new, feel free to create a pull request!
+Para aprovechar al máximo este `python-cheat-sheet`, sigue estos pasos:
 
-# 🇪🇸 Español
-Una colección de funciones esenciales de Python, cubriendo conceptos básicos, estructuras de datos, manejo de archivos, control de errores, algoritmos y más. Este repositorio está diseñado para principiantes y usuarios intermedios que desean profundizar en Python.
+1. **Clona el repositorio:** Abre tu terminal o Git Bash y clona este repositorio en tu máquina local:
 
-## 📂 Estructura del Proyecto
-📦 python-essential-functions<br>
-│── 📁 basics               ```# Funciones básicas de Python```<br>
-│── 📁 data_structures      ```# Listas, tuplas, diccionarios, conjuntos y más```<br>
-│── 📁 file_handling        ```# Manejo de archivos (lectura, escritura y más)```<br>
-│── 📁 error_handling       ```# Manejo de excepciones y depuración```<br>
-│── 📁 modules_and_packages ```# Uso y creación de modulos/paquetes```<br>
-│── 📁 algorithms           ```# Ordenamiento, búsqueda, recursión, etc.```<br>
-│── 📁 database             ```# Conexión a bases de datos (MySQL, PostgreSQL, SQL Server)```<br>
-│── 📁 control_flow         ```# Condicionales, bucles, comprensiones, match-case```<br>
-│── 📁 oops                 ```# Programación Orienta a Objetos (POO)```
+   ```bash
+   git clone https://github.com/ayorick23/python-cheat-sheet.git
+   ```
 
-## 🚀 Cómo Usarlo
+2. **Navega al directorio:**
 
-1️⃣ Clonar el repositorio  
-```sh
-git clone https://github.com/ayorick23/python-essential-functions.git
-cd python-essential-functions
-```
+   ```bash
+   cd python-cheat-sheet
+   ```
 
-## 📜 Requisitos Previos
-- Python 3.8+
-- Recomendado: ```pip install requests beautifulsoup4 pandas selenium scrapy psycopg2 pyodbc```
+3. **Explora los ejemplos:** Dirígete al directorio `data_structures/` y explora las diferentes categorías de funciones. Por ejemplo, para comprender la sintaxis básica de los diccionarios:
+
+   ```bash
+   cd data_structures/dictionaries.py
+   ```
+
+4. **Ejecuta y haz pruebas:** Abre el archivo `.py` dentro de cada categoría para obtener una descripción general y pautas de uso.
+
+   ```bash
+   cat dictionaries.py
+   ```
 
 ## 🤝 Contribuciones
-Si encuentras un problema o quieres agregar algo nuevo, siéntete libre de crear un pull request.
+
+¡Las contribuciones son increíblemente valiosas! Si deseas mejorar este **Python Cheat Sheet**, añadir nuevas funciones, mejorar explicaciones o proporcionar más ejemplos, por favor:
+
+1. Haz un fork de este repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nuevo-tema-oop`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir sección sobre herencia'`).
+4. Haz un push de tus cambios a tu fork (`git push origin feature/nuevo-tema-oop`).
+5. Abre un Pull Request en este repositorio.
+
+## 🫂 Referencias y Agradecimientos
+
+Este repositorio ha sido creado recopilando y sintetizando información de diversas fuentes fiables sobre Python. Quiero extender mi más sincero agradecimiento a los siguientes recursos, que han sido fundamentales para la construcción de este contenido:
+
+- **Documentación oficial de Python:** La fuente más completa y precisa para todas las características y funcionalidades de Python.
+  - [Python 3.13.4 documentation](https://docs.python.org/3/)
+- **QuickRef.ME:** Hoja de referencia de Python con las fórmulas y funciones principales.
+  - [Python CheatSheet](https://quickref.me/python)
+
+¡Agradezco a todos estos recursos por su invaluable contribución al conocimiento de Python!
+
+## 📃 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## ✉️ Contáctame
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ayorick23)
+[![Gmail](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mayorickhenry@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/dereckmendez/)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-181717?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/dereckmendez)
