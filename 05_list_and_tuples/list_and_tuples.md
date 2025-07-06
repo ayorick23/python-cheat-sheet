@@ -51,7 +51,7 @@ Las listas son mutables, lo que significa que puedes añadir, eliminar o modific
 
 - `append(item)`: Añade un elemento al final de la lista.
 - `insert(indice, item)`: Inserta un elemento en una posición específica de la lista.
-- `del`: Elimina un elemento por su índice o un slice de la lista.
+- `del sentencia`: Elimina un elemento por su índice o un slice de la lista.
 - `remove(valor)`: Elimina la primera aparición de un valor específico de la lista. Si el valor no existe, lanza un ValueError.
 - `pop([indice])`: Elimina y devuelve el elemento en el índice dado. Si no se proporciona un índice, elimina y devuelve el último elemento.
 

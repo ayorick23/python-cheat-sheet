@@ -98,3 +98,15 @@ El bucle `for` se utiliza para iterar sobre los elementos de un iterable (como l
 for elemento in iterable:
     # Bloque de código para cada elemento
 ```
+
+## Listas por Comprensión
+
+Las listas por comprensión son una forma concisa de crear nuevas listas a partir de iterables existentes, aplicando una expresión a cada elemento y, opcionalmente, incluyendo una condición para filtrar elementos. Son una alternativa más legible y a menudo más eficiente que usar bucles `for` tradicionales para crear listas.
+
+```python
+nueva_lista = [expresion for elemento in iterable if condicion]
+```
+
+- `expresion`: El valor que se incluirá en la nueva lista por cada elemento. Puede ser cualquier operación o cálculo.
+- `for elemento in iterable`: Un bucle `for` que itera sobre el `iterable` (_lista, tupla, rango, etc._).
+- `if condicion`: Una condición opcional que filtra los elementos. Solo se procesarán aquellos elementos que cumplan la condición.
