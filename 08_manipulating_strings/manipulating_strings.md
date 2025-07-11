@@ -2,13 +2,28 @@
 
 Las cadenas en Python son secuencias inmutables de caracteres Unicode. Inmutable significa que, una vez creadas, no se pueden modificar en su lugar. Cualquier operación que "modifique" una cadena en realidad crea una nueva cadena.
 
-## Caracteres de Escape
+## Secuencias de Escape
 
-Un carácter de escape se crea escribiendo una barra invertida \ seguida del carácter que desea insertar.
+Un carácter de escape se crea escribiendo una barra invertida `\` seguida del carácter que desea insertar.
 
-| Caracter de Escape | Impresión |
-| ------------------ | --------- |
-| `\'`               |
+| Caracter de Escape | Impresión               |
+| ------------------ | ----------------------- |
+| `\'`               | Comillas Simples        |
+| `\"`               | Comillas Dobles         |
+| `\t`               | Tabulación              |
+| `\n`               | Salto de línea          |
+| `\\`               | Barra invertida         |
+| `\b`               | Retroceso               |
+| `\ooo`             | Carácter de valor octal |
+| `\r`               | Retorno de carro        |
+
+### Cadenas sin formato
+
+Si necesitas utilizar secuencias de escape sin que sean interpretadas, puedes utilizar cadenas sin formato, precediéndolas con `r` o `R` antes de las comillas.
+
+```python
+print(r"C:\Carpeta\Archivo.txt")  # Imprime: C:\Carpeta\Archivo.txt
+```
 
 ## Cadenas Multilínea
 
@@ -62,7 +77,7 @@ Python proporciona varios métodos `isX` para verificar el tipo de contenido de 
 - `str.isalnum()`: ¿Todos los caracteres son alfanuméricos (letras o dígitos)?
 - `str.isspace()`: ¿Todos los caracteres son espacios en blanco?
 - `str.istitle()`: ¿La cadena está en formato título? (primera letra de cada palabra en mayúscula, el resto en minúscula).
-- `str.isdecimal()`, str.isnumeric(), `str.isascii()`: Variantes para tipos de números o caracteres ASCII.
+- `str.isdecimal()`, `str.isnumeric()`, `str.isascii()`: Variantes para tipos de números o caracteres ASCII.
 
 ## Métodos `startswith()` y `endswith()`
 

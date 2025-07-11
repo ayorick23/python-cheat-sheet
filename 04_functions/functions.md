@@ -56,7 +56,7 @@ print(describir_persona(nombre="Sofía", ocupacion="Ingeniera", edad=30))
 # Salida: Sofía tiene 30 años y es Ingeniera. (El orden no importa al usar palabras clave)
 ```
 
-4. **Argumentos de Longitud Variable (`*args` y ``**kwargs``)\*\*
+4. **Argumentos de Longitud Variable (`*args` y `**kwargs`)\*\*
 
 - `*args` **(Argumentos Posicionales Arbitrarios):** Permite que una función acepte un número variable de argumentos posicionales. Estos se agrupan en una tupla dentro de la función.
 - `**kwargs` **(Argumentos de Palabra Clave Arbitrarios):** Permite que una función acepte un número variable de argumentos de palabra clave. Estos se agrupan en un diccionario dentro de la función.
