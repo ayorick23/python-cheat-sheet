@@ -12,23 +12,23 @@ import re
 
 ## Símbolos de Expresiones Regulares
 
-| Symbol                    | Matches                                                |
-| ------------------------- | ------------------------------------------------------ |
-| `?`                       | zero or one of the preceding group.                    |
-| `*`                       | zero or more of the preceding group.                   |
-| `+`                       | one or more of the preceding group.                    |
-| `{n}`                     | exactly n of the preceding group.                      |
-| `{n,}`                    | n or more of the preceding group.                      |
-| `{,m}`                    | 0 to m of the preceding group.                         |
-| `{n,m}`                   | at least n and at most m of the preceding p.           |
-| `{n,m}?` or `\*?` or `+?` | performs a non-greedy match of the preceding p.        |
-| `^spam`                   | means the string must begin with spam.                 |
-| `spam$`                   | means the string must end with spam.                   |
-| `.`                       | any character, except newline characters.              |
-| `\d`, `\w`, and `\s`      | a digit, word, or space character, respectively.       |
-| `\D`, `\W`, and `\S`      | anything except a digit, word, or space, respectively. |
-| `[abc]`                   | any character between the brackets (such as a, b, ).   |
-| `[^abc]`                  | any character that isn’t between the brackets.         |
+| Símbolo                  | Coincidencia                                                                 |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| `?`                      | Cero o una del grupo que le precede.                                         |
+| `*`                      | Cero o más del grupo que le precede.                                         |
+| `+`                      | Una o más del grupo que le precede.                                          |
+| `{n}`                    | Exactamente `n` del grupo que le precede.                                    |
+| `{n,}`                   | Una o más del grupo que le precede.                                          |
+| `{,m}`                   | 0 a `m` del grupo que le precede.                                            |
+| `{n,m}`                  | Al menos `n` y como máximo `m` del grupo que le precede.                     |
+| `{n,m}?` or `*?` or `+?` | Realiza una coincidencia no codiciosa del grupo que le precede.              |
+| `^spam`                  | Significa que la cadena debe comenzar con `spam`.                            |
+| `spam$`                  | Significa que la cadena debe terminar con `spam`.                            |
+| `.`                      | Cualquier carácter, excepto caracteres de nueva línea.                       |
+| `\d`, `\w`, and `\s`     | Un dígito, una palabra o un carácter de espacio, respectivamente.            |
+| `\D`, `\W`, and `\S`     | Cualquier cosa excepto un dígito, una palabra o un espacio, respectivamente. |
+| `[abc]`                  | Cualquier carácter entre corchetes (como a, b, c).                           |
+| `[^abc]`                 | Cualquier carácter que no esté entre corchetes.                              |
 
 ## Uso de `re.compile()`
 
