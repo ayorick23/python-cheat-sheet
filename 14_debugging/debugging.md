@@ -43,11 +43,11 @@ El módulo `logging` es la forma estándar y más potente de Python para registr
 
 El módulo logging tiene varios niveles de severidad predefinidos, en orden ascendente de prioridad:
 
-- `DEBUG`: Información detallada, típicamente de interés solo al diagnosticar problemas.
-- `INFO`: Confirmación de que las cosas están funcionando como se esperaba.
-- `WARNING`: Indicación de que algo inesperado ha ocurrido, o indicación de algún problema en el futuro cercano (por ejemplo, 'espacio en disco bajo'). El software sigue funcionando como se esperaba.
-- `ERROR`: Debido a un problema más serio, el software no ha podido realizar alguna función.
-- `CRITICAL`: Un error grave, que indica que el programa mismo no puede continuar ejecutándose.
+1. `DEBUG`: Información detallada, típicamente de interés solo al diagnosticar problemas.
+2. `INFO`: Confirmación de que las cosas están funcionando como se esperaba.
+3. `WARNING`: Indicación de que algo inesperado ha ocurrido, o indicación de algún problema en el futuro cercano (por ejemplo, 'espacio en disco bajo'). El software sigue funcionando como se esperaba.
+4. `ERROR`: Debido a un problema más serio, el software no ha podido realizar alguna función.
+5. `CRITICAL`: Un error grave, que indica que el programa mismo no puede continuar ejecutándose.
 
 **Configuración básica:**
 
