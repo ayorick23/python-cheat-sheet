@@ -1,8 +1,21 @@
-# <img width="30" height="30" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="python"> Python Cheat Sheet
+# <img width="30" height="30" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="python"> **Python Cheat Sheet**
 
 ¡Bienvenido a **Python Cheat Sheet!** Este repositorio está diseñado para ser tu guía rápida y práctica en el mundo de Python. Si eres un principiante que está dando sus primeros pasos o un desarrollador experimentado que necesita refrescar un concepto, ¡aquí encontrarás una referencia concisa y útil!
 
 Aquí hallarás una colección organizada de los comandos, estructuras de datos, funciones y conceptos clave de Python, cada uno con una explicación clara y ejemplos de código prácticos.
+
+## 📚 Tabla de Contenidos
+
+- [ **Python Cheat Sheet**](#-python-cheat-sheet)
+  - [📚 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [🌎 Acerca de](#-acerca-de)
+  - [🚀 ¿Qué encontrarás aquí?](#-qué-encontrarás-aquí)
+  - [📂 Estructura del Repositorio](#-estructura-del-repositorio)
+  - [📝 ¿Cómo Usarlo?](#-cómo-usarlo)
+  - [🤝 Contribuciones](#-contribuciones)
+  - [🫂 Referencias y Agradecimientos](#-referencias-y-agradecimientos)
+  - [🎖️ Licencia](#️-licencia)
+  - [📩 Contáctame](#-contáctame)
 
 ## 🌎 Acerca de
 
@@ -12,35 +25,44 @@ Este **Python Cheat Sheet** tiene como objetivo simplificar el aprendizaje y la 
 
 ## 🚀 ¿Qué encontrarás aquí?
 
-- `algorithms/` → Subdirectorios que contienen cada uno una familia de funciones y sintaxis de Python.
-  - Cada subdirectorio contiene archivos `.py` individuales (ej: `dinamic_programming.py`, `graph_algorithms.py`) con ejemplos de código Python listos para usar para cada función específica.
+- `10_regular_expressions/` → Subdirectorios que contienen cada uno una familia de funciones y sintaxis de Python.
+  - Cada subdirectorio contiene:
+  - Un archivo `.md` (ej: `regular_expressions.md`, `oop.md`) que ofrece una explicación general de los conceptos y su uso dentro de esa categoría.
+  - Archivos `.py` individuales (ej: `01_compile.py`, `01_classes_attributes.py`) con ejemplos de código Python listos para usar para cada función específica.
 
 ## 📂 Estructura del Repositorio
 
-El repositorio está organizado de forma modular, agrupando las funciones DAX por categorías para una navegación intuitiva:
+El repositorio está organizado por temas principales de Python para facilitar la navegación y el aprendizaje:
 
 ```bash
 python-cheat-sheet/
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── algorithms/
-│   ├── dinamic_programming.py
-│   ├── graph_algorithms.py
+├── 01_introduction/
+│   ├── introduction.md
+│   ├── 01_arithmetic_operators.py
+│   ├── 02_relational_operators.py
 │   └── ...
-├── basic_functions/
-│   ├── conditionals.py
-│   ├── dictionaries.py
+├── 02_built-in_functions/
+│   ├── built-in_functions.md
+│   ├── 01_print.py
+│   ├── 02_input.py
 │   └── ...
-├── control_flow/
-│   ├── comprehensions.py
-│   ├── conditionals.py
+├── 03_control_flow/
+│   ├── control_flow.md
+│   ├── 01_if_elif_else.py
+│   ├── 02_ternary_conditional_operator.py
 │   └── ...
-├── data_structures/
-│   ├── dictionaries.py
-│   ├── linked_list.py
+├── 04_functions/
+│   ├── functions.md
+│   ├── 01_def_functions.py
+│   ├── 02_types_arguments.py
 │   └── ...
-├── database/
-│   ├── mysql_connection.py
-│   ├── orm_sqlalchemy.py
+├── 05_list_and_tuples/
+│   ├── list_and_tuples.md
+│   ├── 01_index_and_slicing.py
+│   ├── 02_concatenations_and_replication.py
 │   └── ...
 └── ...
 ```
@@ -61,16 +83,16 @@ Para aprovechar al máximo este `python-cheat-sheet`, sigue estos pasos:
    cd python-cheat-sheet
    ```
 
-3. **Explora los ejemplos:** Dirígete al directorio `data_structures/` y explora las diferentes categorías de funciones. Por ejemplo, para comprender la sintaxis básica de los diccionarios:
+3. **Explora los ejemplos:** Dirígete a través de los directorios para explorar las diferentes categorías de funciones. Por ejemplo, para comprender la sintaxis básica de los diccionarios:
 
    ```bash
-   cd data_structures/dictionaries.py
+   cd 06_dictionaries/dictionaries.md
    ```
 
-4. **Ejecuta y haz pruebas:** Abre el archivo `.py` dentro de cada categoría para obtener una descripción general y pautas de uso.
+4. **Ejecuta y haz pruebas:** Abre los archivos `.py` dentro de cada categoría para obtener una descripción general y pautas de uso.
 
    ```bash
-   cat dictionaries.py
+   cat 01_get_values.py
    ```
 
 ## 🤝 Contribuciones
@@ -89,16 +111,20 @@ Este repositorio ha sido creado recopilando y sintetizando información de diver
 
 - **Documentación oficial de Python:** La fuente más completa y precisa para todas las características y funcionalidades de Python.
   - [Python 3.13.4 documentation](https://docs.python.org/3/)
+- **Python Cheatsheet:** Hoja de referencia de Python basada en el libro "_Automate the Boring Stuff with Python_" y otros recursos.
+  - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - **QuickRef.ME:** Hoja de referencia de Python con las fórmulas y funciones principales.
   - [Python CheatSheet](https://quickref.me/python)
+- **Roadmap Python Developer:** Ruta de aprendizaje paso a paso para convertirse en desarrollador de Python en actualizado al 2025.
+  - [Roadmap Python Developer](https://roadmap.sh/python)
 
 ¡Agradezco a todos estos recursos por su invaluable contribución al conocimiento de Python!
 
-## 📃 Licencia
+## 🎖️ Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-## ✉️ Contáctame
+## 📩 Contáctame
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
