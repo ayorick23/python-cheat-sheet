@@ -137,3 +137,67 @@ Un grafo es una estructura de datos no lineal que consiste en un conjunto de nod
 # Algoritmos Fundamentales
 
 Un algoritmo es un conjunto finito de instrucciones bien definidas y no ambiguas para resolver un problema o lograr un objetivo. La eficiencia de un algoritmo se mide a menudo por su complejidad de tiempo (cuánto tarda en ejecutarse) y complejidad de espacio (cuánta memoria consume), generalmente expresada en notación O (Big O notation).
+
+## Algoritmos de Búsqueda
+
+### Búsqueda Lineal (_Sequential Search_)
+
+Recorre una colección elemento por elemento hasta encontrar el objetivo o llegar al final.
+
+- **Complejidad:** O(n) - En el peor caso, debe revisar todos los elementos.
+- **Cuándo usar:** Para colecciones pequeñas o desordenadas.
+
+### Búsqueda Binaria (_Binary Search_)
+
+Requiere que la colección esté ordenada. Divide repetidamente por la mitad la porción de la lista donde el objetivo podría estar, eliminando la mitad no relevante en cada paso.
+
+- **Complejidad:** O(log n) - Mucho más rápido que la búsqueda lineal para listas grandes.
+- **Cuándo usar:** Para colecciones grandes y ordenadas.
+
+## Algoritmos de Ordenamiento
+
+### Ordenamiento de Burbuja (_Bubble Sort_)
+
+Descripción: Un algoritmo simple que repetidamente recorre la lista, compara elementos adyacentes y los intercambia si están en el orden incorrecto. Las pasadas a través de la lista se repiten hasta que no se necesitan más intercambios, lo que indica que la lista está ordenada.
+
+- **Complejidad:** O($n^2$) - Ineficiente para listas grandes.
+- **Cuándo usar:** Principalmente para propósitos educativos debido a su simplicidad.
+
+### Ordenamiento por Inserción (_Insertion Sort_)
+
+Construye la lista final ordenada un elemento a la vez. Recorre la lista, tomando cada elemento y "insertándolo" en su posición correcta en la sublista ya ordenada.
+
+- **Complejidad:** O($n^2$) en el peor y promedio caso, O(n) en el mejor caso (lista ya ordenada).
+- **Cuándo usar:** Para listas pequeñas o listas que ya están casi ordenadas.
+
+### Ordenamiento por Mezcla (_Merge Sort_)
+
+Un algoritmo de "divide y vencerás". Divide la lista recursivamente en dos mitades hasta que cada sublista tenga un solo elemento (que por definición está ordenada). Luego, fusiona (mezcla) las sublistas ordenadas para producir listas ordenadas más grandes.
+
+- **Complejidad:** O(n log n) - Mucho más eficiente para listas grandes que los algoritmos O($n^2$).
+- **Cuándo usar:** Para ordenar listas grandes de manera eficiente. Es un algoritmo estable (mantiene el orden relativo de elementos iguales).
+
+### Ordenamiento Rápido (_Quick Sort_)
+
+También es un algoritmo de "divide y vencerás". Selecciona un elemento de la lista llamado pivote. Luego, particiona la lista en dos sublistas: elementos menores que el pivote y elementos mayores que el pivote. Recursivamente ordena las sublistas.
+
+- **Complejidad:** O(n log n) en el caso promedio, O($n^2$) en el peor caso (mala elección del pivote).
+- **Cuándo usar:** Muy eficiente en la práctica para listas grandes, a menudo más rápido en promedio que Merge Sort, aunque Merge Sort tiene una complejidad de peor caso garantizada de O(n log n). Es un algoritmo in situ (no requiere mucha memoria extra).
+
+## Algoritmos de Recorrido de Grafos/Árboles
+
+### Búsqueda en Amplitud (Breadth-First Search - BFS)
+
+Recorre un grafo (o árbol) nivel por nivel. Empieza en un nodo raíz, luego visita todos sus vecinos, luego todos los vecinos de sus vecinos, y así sucesivamente.
+
+- **Utiliza una cola (Queue)** para gestionar los nodos a visitar.
+- **Complejidad:** O(V + E) donde V es el número de vértices y E es el número de aristas.
+- **Cuándo usar:** Encontrar el camino más corto en un grafo no ponderado, rastrear niveles de un árbol.
+
+### Búsqueda en Profundidad (Depth-First Search - DFS)
+
+Recorre un grafo (o árbol) yendo tan profundo como sea posible a lo largo de cada rama antes de retroceder.
+
+- **Utiliza una pila (Stack)** implícita (con recursión) o explícita.
+- **Complejidad:** O(V + E) donde V es el número de vértices y E es el número de aristas.
+- **Cuándo usar:** Detección de ciclos, ordenamiento topológico, encontrar componentes conectados.
